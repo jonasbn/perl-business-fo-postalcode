@@ -1,0 +1,7 @@
+Changes file for Business::FO::Postalcode
+
+0.01 2013.03.05 - Initial release
+
+- Implementing the following features:
+
+    - Data container for postalcodes from the Faroe Islands (FO)
