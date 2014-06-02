@@ -4,6 +4,8 @@ use strict;
 use warnings;
 use base qw(Class::Business::GL::Postalcode);
 
+our $VERSION = '0.01';
+
 sub new {
     my $class = shift;
 
