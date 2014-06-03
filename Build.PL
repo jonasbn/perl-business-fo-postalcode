@@ -16,10 +16,8 @@ my $build = Module::Build->new(
     create_readme        => 1,
     recursive_test_files => 1,
     configure_requires   => { 'Module::Build' => '0.40', },
-    build_requires       => {
+    test_requires        => {
         'Test::More'          => '0',    #core
-        'Test::Taint'         => '0',
-        'Data::FormValidator' => '0',
         'Test::Exception'     => '0',
         'Test::Kwalitee'      => '0',
         'Test::Perl::Critic'  => '0',
@@ -34,9 +32,7 @@ my $build = Module::Build->new(
     requires => {
         'Exporter'         => '0',       #core
         'Carp'             => '0',       #core
-        'Tree::Simple'     => '0',
         'Params::Validate' => '0',
-        'Scalar::Util'     => '0',
     },
     meta_merge => {
         resources => {
