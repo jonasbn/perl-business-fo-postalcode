@@ -19,6 +19,51 @@ sub new {
 
 1;
 
+=pod
+
+=head1 NAME
+
+Class::Business::FO::Postalcode - 
+
+=head1 VERSION
+
+This documentation describes version 0.01
+
+=head1 SYNOPSIS
+
+=head1 DESCRIPTION
+
+=head1 BUGS
+
+Please report issues via CPAN RT:
+
+  http://rt.cpan.org/NoAuth/Bugs.html?Dist=Business-FO-Postalcode
+
+or by sending mail to
+
+  bug-Business-FO-Postalcode@rt.cpan.org
+
+=head1 SEE ALSO
+
+=over
+
+=item L<Business::DK::Postalcode>
+
+=back
+
+=head1 AUTHOR
+
+Jonas B. Nielsen, (jonasbn) - C<< <jonasbn@cpan.org> >>
+
+=head1 COPYRIGHT
+
+Business-FO-Postalcode is (C) by Jonas B. Nielsen, (jonasbn) 2014
+
+Business-FO-Postalcode is released under the artistic license 2.0
+
+=cut
+
+
 __DATA__
 100 Tórshavn            FALSE   3
 110 Tórshavn    Postboks        FALSE   3
