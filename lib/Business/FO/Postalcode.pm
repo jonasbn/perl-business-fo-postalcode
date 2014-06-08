@@ -63,6 +63,12 @@ or by sending mail to
 
 =back
 
+=head1 MOTIVATION
+
+Postdanmark the largest danish postal and formerly stateowned postal service, maintain the 
+postalcode mapping for Greenland and the Faroe Islands. Since I am using this resource to 
+maintain the danish postalcodes I decided to release distributions of these two other countries.
+
 =head1 AUTHOR
 
 Jonas B. Nielsen, (jonasbn) - C<< <jonasbn@cpan.org> >>
