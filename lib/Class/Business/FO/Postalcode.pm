@@ -3,6 +3,7 @@ package Class::Business::FO::Postalcode;
 use strict;
 use warnings;
 use base qw(Class::Business::GL::Postalcode);
+use 5.010; #5.10.0
 
 our $VERSION = '0.01';
 

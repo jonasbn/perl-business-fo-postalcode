@@ -3,6 +3,7 @@ package Business::FO::Postalcode;
 use strict;
 use warnings;
 use Class::Business::FO::Postalcode;
+use 5.010; #5.10.0
 
 require Exporter;
 
