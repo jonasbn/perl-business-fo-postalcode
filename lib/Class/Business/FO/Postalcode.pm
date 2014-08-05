@@ -23,7 +23,7 @@ sub new {
 
 =head1 NAME
 
-Class::Business::FO::Postalcode - 
+Class::Business::FO::Postalcode - OO interface to validation and listing of Faroe Islands postal codes
 
 =head1 VERSION
 
