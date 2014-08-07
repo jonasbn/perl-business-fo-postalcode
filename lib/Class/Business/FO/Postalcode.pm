@@ -34,7 +34,7 @@ sub new {
 
 =begin HTML
 
-<a href="https://travis-ci.org/jonasbn/perl-Business-GL-Postalcode"><img src="https://travis-ci.org/jonasbn/perl-Business-FO-Postalcode.svg?branch=master"></a>
+<a href="https://travis-ci.org/jonasbn/perl-Business-FO-Postalcode"><img src="https://travis-ci.org/jonasbn/perl-Business-FO-Postalcode.svg?branch=master"></a>
 
 =end HTML
 
