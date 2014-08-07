@@ -75,3 +75,6 @@
 # Github Travis CI file
 .travis.yml
 
+# SublimeText 2 files
+\.sublime-project
+\.sublime-workspace
