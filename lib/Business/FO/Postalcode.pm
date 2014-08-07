@@ -4,24 +4,53 @@ use strict;
 use warnings;
 use Class::Business::FO::Postalcode;
 use 5.010; #5.10.0
+use utf8;
 
 require Exporter;
 
 our @ISA = qw(Exporter);
-our @EXPORT_OK = qw(get_all_data get_all_postalcodes);
+our @EXPORT_OK = qw(get_all_data get_all_postalcodes get_all_cities get_postalcode_from_city get_city_from_postalcode validate_postalcode validate);
 
 our $VERSION = '0.01';
 
 sub get_all_data {
-    my $self = Class::Business::FO::Postalcode->new();
+    my $validator = Class::Business::FO::Postalcode->new();
 
-    return $self->postal_data;
+    return $validator->postal_data();
 }
 
 sub get_all_postalcodes {
-    my $self = Class::Business::FO::Postalcode->new();
+    my $validator = Class::Business::FO::Postalcode->new();
 
-    return $self->postal_data;
+    return $validator->get_all_postalcodes();
+}
+
+sub get_all_cities {
+    my $validator = Class::Business::FO::Postalcode->new();
+
+    return $validator->get_all_cities();
+}
+
+sub get_city_from_postalcode {
+    my $validator = Class::Business::FO::Postalcode->new();
+
+    return $validator->get_city_from_postalcode( $_[0] );
+}
+
+sub get_postalcode_from_city {
+    my $validator = Class::Business::FO::Postalcode->new();
+
+    return $validator->get_postalcode_from_city( $_[0] );
+}
+
+sub validate {
+    return validate_postalcode( $_[0] );
+}
+
+sub validate_postalcode {
+    my $validator = Class::Business::FO::Postalcode->new();
+
+    return $validator->validate( $_[0] );
 }
 
 1;
