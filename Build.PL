@@ -33,6 +33,8 @@ my $build = Module::Build->new(
         'Exporter'         => '0',       #core
         'Carp'             => '0',       #core
         'Params::Validate' => '0',
+        'List::Util'       => '0',
+        'Data::Handle'     => '0',
     },
     meta_merge => {
         resources => {
