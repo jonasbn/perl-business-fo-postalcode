@@ -1,5 +1,11 @@
 Changes file for Business::FO::Postalcode
 
+0.02 2014.08.08 - bug fix release, update recommended
+
+- Added missing requirement: Business::GL::Postalcode (0.02), which actually
+  implements all the funtionality
+
+
 0.01 2014.08.07 - Initial release
 
 - Implementing the following features:
