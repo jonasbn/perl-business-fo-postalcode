@@ -131,6 +131,8 @@ This documentation describes version 0.01
 
 =back
 
+=head1 DESCRIPTION
+
 This distribution is not the original resource for the included data, but simply
 acts as a simple distribution for Perl use. The central source is monitored so this
 distribution can contain the newest data. The monitor script (F<postdanmark.pl>) is
@@ -404,6 +406,8 @@ This distribution requires no special configuration or environment.
 =item * L<https://metacpan.org/pod/List::Util>
 
 =item * L<https://metacpan.org/pod/Params::Validate>
+
+=item * L<https://metacpan.org/pod/Business::GL::Postalcode>
 
 =back
 
