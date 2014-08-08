@@ -250,6 +250,26 @@ Please note that city names are not unique, hence the possibility of a list of p
         die "$city not found\n";
     }
 
+=head2 num_of_digits_in_postalcode
+
+Mutator to get/set the number of digits used to compose a Greenlandic postal code
+
+    my $validator = Business::FO::Postalcode->new();
+
+    my $rv = $validator->num_of_digits_in_postalcode(3);
+
+    my $digits = $validator->num_of_digits_in_postalcode();
+
+=head2 postal_data
+
+Mutator to get/set the reference to the array comprising the main data structure
+
+    my $validator = Business::FO::Postalcode->new();
+
+    my $rv = $validator->postal_data(\@postal_data);
+
+    my $postal_data = $validator->postal_data();
+
 =head1 DIAGNOSTICS
 
 There are not special diagnostics apart from the ones related to the different
