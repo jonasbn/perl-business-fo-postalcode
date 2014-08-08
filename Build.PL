@@ -10,7 +10,7 @@ my $build = Module::Build->new(
     module_name       => 'Business::FO::Postalcode',
     dist_version_from => 'lib/Business/FO/Postalcode.pm',
     dist_abstract =>
-        'Module contaning danish zipcodes for validation and deployment',
+        'Module contaning Faroese zipcodes for validation and deployment',
     license              => 'artistic_2',
     create_makefile_pl   => 'traditional',
     create_readme        => 1,
