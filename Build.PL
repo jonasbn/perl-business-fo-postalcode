@@ -17,7 +17,7 @@ my $build = Module::Build->new(
     recursive_test_files => 1,
     configure_requires   => { 'Module::Build' => '0.40', },
     test_requires        => {
-        'Test::More'          => '0',    #core
+        'Test::More'          => '0', #core
         'Test::Exception'     => '0',
         'Test::Kwalitee'      => '0',
         'Test::Perl::Critic'  => '0',
@@ -30,11 +30,13 @@ my $build = Module::Build->new(
         'Env'                 => '0', #core
     },
     requires => {
-        'Exporter'         => '0',       #core
-        'Carp'             => '0',       #core
-        'Params::Validate' => '0',
-        'List::Util'       => '0',
-        'Data::Handle'     => '0',
+        'Exporter'                 => '0', #core
+        'Carp'                     => '0', #core
+        'Params::Validate'         => '0',
+        'List::Util'               => '0',
+        'Data::Handle'             => '0',
+        'perl'                     => '5.10.0',
+        'Business::GL::Postalcode' => '0.02',
     },
     meta_merge => {
         resources => {
