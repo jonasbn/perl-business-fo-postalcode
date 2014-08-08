@@ -85,6 +85,9 @@ This documentation describes version 0.01
 
 =head1 DESCRIPTION
 
+Please note that this class inherits from: L<https://metacpan.org/pod/Business::GL::Postalcode>,
+so most of the functionality is implmented in the parent class.
+
 This distribution is not the original resource for the included data, but simply
 acts as a simple distribution for Perl use. The central source is monitored so this
 distribution can contain the newest data. The monitor script (F<postdanmark.pl>) is
