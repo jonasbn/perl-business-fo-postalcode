@@ -11,7 +11,7 @@ require Exporter;
 our @ISA = qw(Exporter);
 our @EXPORT_OK = qw(get_all_data get_all_postalcodes get_all_cities get_postalcode_from_city get_city_from_postalcode validate_postalcode validate);
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 sub get_all_data {
     my $validator = Class::Business::FO::Postalcode->new();
@@ -71,7 +71,7 @@ Class::Business::FO::Postalcode - validation and listing of Faroe Islands postal
 
 =head1 VERSION
 
-This documentation describes version 0.01
+This documentation describes version 0.02
 
 =head1 SYNOPSIS
 

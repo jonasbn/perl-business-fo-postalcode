@@ -7,7 +7,7 @@ use 5.010; #5.10.0
 use utf8;
 use Data::Handle;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use constant NUM_OF_DIGITS_IN_POSTALCODE => 3;
 
@@ -46,7 +46,7 @@ Class::Business::FO::Postalcode - OO interface to validation and listing of Faro
 
 =head1 VERSION
 
-This documentation describes version 0.01
+This documentation describes version 0.02
 
 =head1 SYNOPSIS
 
