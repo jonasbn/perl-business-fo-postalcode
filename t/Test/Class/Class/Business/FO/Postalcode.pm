@@ -30,22 +30,26 @@ sub test_postal_data : Test(1) {
     is(scalar @{$validator->postal_data()}, $postalcodes_fixtures, 'asserting number of postal codes');
 }
 
-sub test_get_all_postalcodes : Test(2) {
+sub test_get_all_postalcodes : Test(3) {
     my $t = shift;
 
     my $validator = $t->{validator};
 
     ok(my $postalcodes_ref = $validator->get_all_postalcodes(), 'calling get all postal codes');
     is(scalar @{$postalcodes_ref}, $postalcodes_fixtures, 'asserting number of postal codes');
+
+    is($postalcodes_ref->[0], '100', 'asserting postal code');
 }
 
-sub test_get_all_cities : Test(2) {
+sub test_get_all_cities : Test(3) {
     my $t = shift;
 
     my $validator = $t->{validator};
 
     ok(my $cities_ref = $validator->get_all_cities(), 'calling get_all_cities');
     is(scalar @{$cities_ref}, $postalcodes_fixtures, 'asserting number of postal codes');
+
+    is($cities_ref->[0], 'Tórshavn', 'asserting city name');
 }
 
 # sub test_get_all_data : Test(2) {

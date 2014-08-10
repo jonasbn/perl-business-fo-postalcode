@@ -14,14 +14,18 @@ sub startup : Test(startup => 1) {
     use_ok( 'Business::FO::Postalcode', qw(get_all_postalcodes get_all_cities get_all_data validate_postalcode validate get_postalcode_from_city get_city_from_postalcode));
 };
 
-sub test_get_all_postalcodes : Test(2) {
+sub test_get_all_postalcodes : Test(3) {
     ok(my $postalcodes_ref = get_all_postalcodes(), 'calling get all postalcodes');
     is(scalar @{$postalcodes_ref}, $postalcodes_fixtures, 'asserting number of postalcodes');
+
+    is($postalcodes_ref->[0], '100', 'asserting postal code');
 }
 
-sub test_get_all_cities : Test(2) {
+sub test_get_all_cities : Test(3) {
     ok(my $cities_ref = get_all_cities(), 'calling get all postalcodes');
     is(scalar @{$cities_ref}, $postalcodes_fixtures, 'asserting number of postalcodes');
+
+    is($cities_ref->[0], 'Tórshavn', 'asserting city name');
 }
 
 sub test_get_all_data : Test(2) {
