@@ -17,7 +17,7 @@ sub startup : Test(startup => 3) {
 
     ok(my $validator = Class::Business::FO::Postalcode->new(), 'calling new');
 
-    is(scalar(@{$validator->postal_data()}), $postalcodes_fixtures, 'asserting number of postal codes');
+    is(scalar @{$validator->postal_data()}, $postalcodes_fixtures, 'asserting number of postal codes');
 
     $t->{validator} = $validator;
 };
@@ -27,7 +27,7 @@ sub test_postal_data : Test(1) {
 
     my $validator = $t->{validator};
 
-    is(scalar(@{$validator->postal_data()}), $postalcodes_fixtures, 'asserting number of postal codes');
+    is(scalar @{$validator->postal_data()}, $postalcodes_fixtures, 'asserting number of postal codes');
 }
 
 sub test_get_all_postalcodes : Test(2) {
@@ -36,7 +36,16 @@ sub test_get_all_postalcodes : Test(2) {
     my $validator = $t->{validator};
 
     ok(my $postalcodes_ref = $validator->get_all_postalcodes(), 'calling get all postal codes');
-    is(scalar(@{$postalcodes_ref}), $postalcodes_fixtures), 'asserting number of postal codes';
+    is(scalar @{$postalcodes_ref}, $postalcodes_fixtures, 'asserting number of postal codes');
+}
+
+sub test_get_all_cities : Test(2) {
+    my $t = shift;
+
+    my $validator = $t->{validator};
+
+    ok(my $cities_ref = $validator->get_all_cities(), 'calling get_all_cities');
+    is(scalar @{$cities_ref}, $postalcodes_fixtures, 'asserting number of postal codes');
 }
 
 # sub test_get_all_data : Test(2) {
