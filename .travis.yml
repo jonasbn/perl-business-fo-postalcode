@@ -7,4 +7,11 @@ perl:
   - "5.10"
 
 install:
-    cpanm --quiet --installdeps --notest .
+    cpanm --quiet --installdeps --notest . && cpanm --quiet --notest Devel::Cover::Report::Coveralls
+
+script:
+    - ./Build testcover
+
+after_success:
+    - cover -report coveralls
+
