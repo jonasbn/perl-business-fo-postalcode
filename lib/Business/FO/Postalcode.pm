@@ -67,7 +67,7 @@ sub validate_postalcode {
 
 =head1 NAME
 
-Class::Business::FO::Postalcode - validation and listing of Faroe Islands postal codes
+Class::Business::FO::Postalcode - Faroe Islands postal code validator and container
 
 =head1 VERSION
 
