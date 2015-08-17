@@ -32,13 +32,13 @@ sub new {
 
 =pod
 
-=begin HTML
-
-<a href="https://travis-ci.org/jonasbn/perl-Business-FO-Postalcode"><img src="https://travis-ci.org/jonasbn/perl-Business-FO-Postalcode.svg?branch=master"></a>
-
-=end HTML
-
 =encoding UTF-8
+
+=begin markdown
+[![CPAN version](https://badge.fury.io/pl/Business-FO-Postcalcode.svg)](http://badge.fury.io/pl/Business-FO-Postalcode)
+[![Build Status](https://travis-ci.org/jonasbn/perl-Business-FO-Postalcode.svg?branch=master)](https://travis-ci.org/jonasbn/perl-Business-FO-Postalcode.svg)
+[![Coverage Status](https://coveralls.io/repos/jonasbn/perl-Business-FO-Postalcode/badge.png)](https://coveralls.io/r/jonasbn/perl-Business-FO-Postalcode)
+=end markdown
 
 =head1 NAME
 
