@@ -4,7 +4,7 @@ Class::Business::FO::Postalcode - Faroe Islands postal code validator and contai
 
 # VERSION
 
-This documentation describes version 0.02
+This documentation describes version 0.03
 
 # SYNOPSIS
 
@@ -343,6 +343,6 @@ Jonas B. Nielsen, (jonasbn) - `<jonasbn@cpan.org>`
 
 # COPYRIGHT
 
-Business-FO-Postalcode is (C) by Jonas B. Nielsen, (jonasbn) 2014
+Business-FO-Postalcode is (C) by Jonas B. Nielsen, (jonasbn) 2014-2015
 
 Business-FO-Postalcode is released under the Artistic License 2.0
