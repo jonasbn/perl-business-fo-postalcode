@@ -1,10 +1,13 @@
 Changes file for Business::FO::Postalcode
 
-HEAD
+0.03 2015-08-17 Maintenance release, update not required
+
+- Migrated from Module::Build to Dist::Zilla
 
 - Added tests for inherited method: get_all_cities()
 
-0.02 2014.08.08 - bug fix release, update recommended
+
+0.02 2014.08.08 Bug fix release, update recommended
 
 - Added missing requirement: Business::GL::Postalcode (0.02), which actually
   implements all the funtionality

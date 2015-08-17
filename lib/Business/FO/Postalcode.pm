@@ -11,7 +11,7 @@ require Exporter;
 our @ISA = qw(Exporter);
 our @EXPORT_OK = qw(get_all_data get_all_postalcodes get_all_cities get_postalcode_from_city get_city_from_postalcode validate_postalcode validate);
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 sub get_all_data {
     my $validator = Class::Business::FO::Postalcode->new();
@@ -71,7 +71,7 @@ Class::Business::FO::Postalcode - Faroe Islands postal code validator and contai
 
 =head1 VERSION
 
-This documentation describes version 0.02
+This documentation describes version 0.03
 
 =head1 SYNOPSIS
 
@@ -468,7 +468,7 @@ Jonas B. Nielsen, (jonasbn) - C<< <jonasbn@cpan.org> >>
 
 =head1 COPYRIGHT
 
-Business-FO-Postalcode is (C) by Jonas B. Nielsen, (jonasbn) 2014
+Business-FO-Postalcode is (C) by Jonas B. Nielsen, (jonasbn) 2014-2015
 
 Business-FO-Postalcode is released under the Artistic License 2.0
 
