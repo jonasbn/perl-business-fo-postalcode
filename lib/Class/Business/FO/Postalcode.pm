@@ -53,7 +53,7 @@ This documentation describes version 0.03
 =head1 SYNOPSIS
 
     # construction
-    my $validator = Business::FO::Postalcode->new();
+    my $validator = Class::Business::FO::Postalcode->new();
 
     # basic validation of string
     if ($validator->validate($postalcode)) {
@@ -66,9 +66,6 @@ This documentation describes version 0.03
     # All postal codes for use outside this module
     my @postalcodes = @{$validator->get_all_postalcodes()};
 
-
-    # All postal codes and data for use outside this module
-    my $postalcodes = $validator->get_all_data();
 
     foreach (@{postalcodes}) {
         printf
