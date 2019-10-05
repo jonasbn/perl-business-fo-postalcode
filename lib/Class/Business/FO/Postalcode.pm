@@ -16,9 +16,6 @@ sub new {
 
     my $self = bless ({}, $class);
 
-    #seek DATA, 0, 0;
-    #my @postal_data = <DATA>;
-
     my $handle = Data::Handle->new( __PACKAGE__ );
     my @postal_data = $handle->getlines();
 
@@ -347,11 +344,11 @@ maintain the danish postalcodes I decided to release distributions of these two 
 
 =head1 AUTHOR
 
-Jonas B. Nielsen, (jonasbn) - C<< <jonasbn@cpan.org> >>
+Jonas B., (jonasbn) - C<< <jonasbn@cpan.org> >>
 
 =head1 COPYRIGHT
 
-Class-Business-FO-Postalcode is (C) by Jonas B. Nielsen, (jonasbn) 2014
+Class-Business-FO-Postalcode is (C) by Jonas B., (jonasbn) 2014-2019
 
 Class-Business-FO-Postalcode is released under the artistic license 2.0
 

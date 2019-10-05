@@ -466,11 +466,11 @@ maintain the danish postalcodes I decided to release distributions of these two 
 
 =head1 AUTHOR
 
-Jonas B. Nielsen, (jonasbn) - C<< <jonasbn@cpan.org> >>
+Jonas B., (jonasbn) - C<< <jonasbn@cpan.org> >>
 
 =head1 COPYRIGHT
 
-Business-FO-Postalcode is (C) by Jonas B. Nielsen, (jonasbn) 2014-2015
+Business-FO-Postalcode is (C) by Jonas B., (jonasbn) 2014-2019
 
 Business-FO-Postalcode is released under the Artistic License 2.0
 
