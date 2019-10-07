@@ -7,7 +7,6 @@ use 5.010; #5.10.0
 use utf8;
 
 require Exporter;
-
 our @ISA = qw(Exporter);
 our @EXPORT_OK = qw(get_all_data get_all_postalcodes get_all_cities get_postalcode_from_city get_city_from_postalcode validate_postalcode validate);
 

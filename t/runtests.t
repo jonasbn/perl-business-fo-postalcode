@@ -1,7 +1,7 @@
-#!/usr/bin/env/perl -T
 
 use strict;
 use warnings;
+use Test::Class;
 
 use lib qw(t);
 
