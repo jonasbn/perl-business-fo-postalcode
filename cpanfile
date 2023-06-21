@@ -7,7 +7,7 @@ requires 'Business::GL::Postalcode';
 requires 'perl', '5.010';
 
 on 'build', sub {
-    requires 'Module::Build', '0.30';
+    requires 'Module::Build', '0.4234';
 };
 
 on 'test', sub {
@@ -27,7 +27,7 @@ on 'test', sub {
 
 on 'configure', sub {
     requires 'ExtUtils::MakeMaker';
-    requires 'Module::Build', '0.30';
+    requires 'Module::Build', '0.4234';
 };
 
 on 'develop', sub {
