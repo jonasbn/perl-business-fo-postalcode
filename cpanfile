@@ -4,7 +4,7 @@ requires 'Params::Validate';
 requires 'List::Util';
 requires 'Data::Handle';
 requires 'Business::GL::Postalcode';
-requires 'perl', '5.010';
+requires 'perl', '5.39.0';
 
 on 'build', sub {
     requires 'Module::Build', '0.4234';
